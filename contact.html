@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>צור קשר - SecGate | מעטפת טכנולוגית חזקה לעסק שלך</title>
+    <meta name="description" content="צרו קשר עם SecGate לקבלת הצעת מחיר חינם ופגישת ייעוץ. אנחנו כאן לעזור לכם עם כל הצרכים הטכנולוגיים של העסק.">
+    <meta name="keywords" content="צור קשר SecGate, הצעת מחיר IT, פגישת ייעוץ טכנולוגי, תמיכה טכנית">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">SecGate</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link" data-he="בית" data-en="Home">בית</a></li>
+                    <li><a href="services.html" class="nav-link" data-he="שירותים" data-en="Services">שירותים</a></li>
+                    <li><a href="about.html" class="nav-link" data-he="אודות" data-en="About">אודות</a></li>
+                    <li><a href="business-partners.html" class="nav-link" data-he="שותפים עסקיים" data-en="Business Partners">שותפים עסקיים</a></li>
+                    <li><a href="contact.html" class="nav-link active" data-he="צור קשר" data-en="Contact">צור קשר</a></li>
+                    <li><button class="lang-toggle" onclick="toggleLanguage()">EN</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-he="צור קשר" data-en="Contact Us">צור קשר</h1>
+            <p data-he="מוכנים להתחיל? בואו נדבר על איך SecGate יכולה לעזור לעסק שלכם" data-en="Ready to get started? Let's talk about how SecGate can help your business">מוכנים להתחיל? בואו נדבר על איך SecGate יכולה לעזור לעסק שלכם</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Contact Methods Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title" data-he="דרכי יצירת קשר" data-en="Contact Methods">דרכי יצירת קשר</h2>
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3 data-he="📞 התקשרו אלינו" data-en="📞 Call Us">📞 התקשרו אלינו</h3>
+                        <p data-he="זמינים לשיחה ויעוץ ראשוני חינם" data-en="Available for calls and free initial consultation">זמינים לשיחה ויעוץ ראשוני חינם</p>
+                        <a href="tel:+972-50-XXX-XXXX" class="btn-primary" style="margin-top: 1rem;">050-XXX-XXXX</a>
+                        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);" data-he="ראשון-חמישי: 8:00-18:00" data-en="Sunday-Thursday: 8:00-18:00">ראשון-חמישי: 8:00-18:00</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="✉️ שלחו אימייל" data-en="✉️ Send Email">✉️ שלחו אימייל</h3>
+                        <p data-he="נחזור אליכם תוך 24 שעות" data-en="We'll get back to you within 24 hours">נחזור אליכם תוך 24 שעות</p>
+                        <a href="mailto:info@secgate.co.il" class="btn-secondary" style="margin-top: 1rem;">info@secgate.co.il</a>
+                        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);" data-he="מענה מהיר ומקצועי" data-en="Fast and professional response">מענה מהיר ומקצועי</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="🎯 פגישת ייעוץ חינם" data-en="🎯 Free Consultation">🎯 פגישת ייעוץ חינם</h3>
+                        <p data-he="ניתוח צרכים והצעת מחיר מותאמת" data-en="Needs analysis and customized quote">ניתוח צרכים והצעת מחיר מותאמת</p>
+                        <a href="#contact-form" class="btn-primary" style="margin-top: 1rem;" data-he="קבעו פגישה" data-en="Schedule Meeting">קבעו פגישה</a>
+                        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-light);" data-he="ללא התחייבות" data-en="No obligation">ללא התחייבות</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact-form" class="content-section" style="background: var(--bg-light);">
+            <div class="container">
+                <h2 class="section-title" data-he="טופס יצירת קשר" data-en="Contact Form">טופס יצירת קשר</h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="background: var(--bg-white); padding: 3rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+                        <form class="contact-form" id="contactForm">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                                <div class="form-group">
+                                    <label for="name" data-he="שם מלא *" data-en="Full Name *">שם מלא *</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <span class="error-message" id="nameError"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" data-he="כתובת אימייל *" data-en="Email Address *">כתובת אימייל *</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <span class="error-message" id="emailError"></span>
+                                </div>
+                            </div>
+                            
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                                <div class="form-group">
+                                    <label for="phone" data-he="טלפון" data-en="Phone">טלפון</label>
+                                    <input type="tel" id="phone" name="phone">
+                                    <span class="error-message" id="phoneError"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="company" data-he="שם החברה/ארגון" data-en="Company/Organization">שם החברה/ארגון</label>
+                                    <input type="text" id="company" name="company">
+                                </div>
+                            </div>
+                            
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                                <div class="form-group">
+                                    <label for="employees" data-he="כמה עובדים?" data-en="How many employees?">כמה עובדים?</label>
+                                    <select id="employees" name="employees">
+                                        <option value="" data-he="בחר..." data-en="Select...">בחר...</option>
+                                        <option value="1-10" data-he="1-10 עובדים" data-en="1-10 employees">1-10 עובדים</option>
+                                        <option value="11-25" data-he="11-25 עובדים" data-en="11-25 employees">11-25 עובדים</option>
+                                        <option value="26-50" data-he="26-50 עובדים" data-en="26-50 employees">26-50 עובדים</option>
+                                        <option value="51-100" data-he="51-100 עובדים" data-en="51-100 employees">51-100 עובדים</option>
+                                        <option value="100+" data-he="יותר מ-100 עובדים" data-en="More than 100 employees">יותר מ-100 עובדים</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="budget" data-he="תקציב משוער (חודשי)" data-en="Estimated Budget (Monthly)">תקציב משוער (חודשי)</label>
+                                    <select id="budget" name="budget">
+                                        <option value="" data-he="בחר..." data-en="Select...">בחר...</option>
+                                        <option value="under-2000" data-he="עד 2,000 ₪" data-en="Up to 2,000 ₪">עד 2,000 ₪</option>
+                                        <option value="2000-5000" data-he="2,000-5,000 ₪" data-en="2,000-5,000 ₪">2,000-5,000 ₪</option>
+                                        <option value="5000-10000" data-he="5,000-10,000 ₪" data-en="5,000-10,000 ₪">5,000-10,000 ₪</option>
+                                        <option value="10000-20000" data-he="10,000-20,000 ₪" data-en="10,000-20,000 ₪">10,000-20,000 ₪</option>
+                                        <option value="20000+" data-he="מעל 20,000 ₪" data-en="Over 20,000 ₪">מעל 20,000 ₪</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="services" data-he="שירותים שמעניינים אתכם" data-en="Services that interest you">שירותים שמעניינים אתכם</label>
+                                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; margin-top: 0.5rem;">
+                                    <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                        <input type="checkbox" name="services[]" value="security">
+                                        <span data-he="אבטחת מידע" data-en="Information Security">אבטחת מידע</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                        <input type="checkbox" name="services[]" value="cloud">
+                                        <span data-he="שירותי ענן" data-en="Cloud Services">שירותי ענן</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                        <input type="checkbox" name="services[]" value="hardware">
+                                        <span data-he="מכירת חומרה" data-en="Hardware Sales">מכירת חומרה</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                        <input type="checkbox" name="services[]" value="licensing">
+                                        <span data-he="רישיונות תוכנה" data-en="Software Licenses">רישיונות תוכנה</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                        <input type="checkbox" name="services[]" value="support">
+                                        <span data-he="תמיכה טכנית" data-en="Technical Support">תמיכה טכנית</span>
+                                    </label>
+                                    <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                        <input type="checkbox" name="services[]" value="consulting">
+                                        <span data-he="ייעוץ אסטרטגי" data-en="Strategic Consulting">ייעוץ אסטרטגי</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="urgency" data-he="רמת דחיפות" data-en="Urgency Level">רמת דחיפות</label>
+                                <select id="urgency" name="urgency">
+                                    <option value="" data-he="בחר..." data-en="Select...">בחר...</option>
+                                    <option value="urgent" data-he="דחוף - צריך פתרון מיידי" data-en="Urgent - Need immediate solution">דחוף - צריך פתרון מיידי</option>
+                                    <option value="soon" data-he="בקרוב - תוך שבועיים" data-en="Soon - Within two weeks">בקרוב - תוך שבועיים</option>
+                                    <option value="planning" data-he="תכנון - תוך חודש-שניים" data-en="Planning - Within 1-2 months">תכנון - תוך חודש-שניים</option>
+                                    <option value="future" data-he="עתידי - איסוף מידע" data-en="Future - Information gathering">עתידי - איסוף מידע</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" data-he="ספרו לנו על הצרכים שלכם *" data-en="Tell us about your needs *">ספרו לנו על הצרכים שלכם *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="מה הבעיות הטכנולוגיות שאתם מתמודדים איתן? איזה שירותים מעניינים אתכם? האם יש פרויקטים ספציפיים שאתם מתכננים?"></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                                    <input type="checkbox" name="newsletter" value="yes">
+                                    <span data-he="אני מעוניין לקבל עדכונים וטיפים טכנולוגיים" data-en="I would like to receive updates and technology tips">אני מעוניין לקבל עדכונים וטיפים טכנולוגיים</span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary" style="width: 100%; margin-top: 1rem;" data-he="שלח הודעה וקבל הצעת מחיר" data-en="Send Message & Get Quote">שלח הודעה וקבל הצעת מחיר</button>
+                            
+                            <p style="font-size: 0.9rem; color: var(--text-light); text-align: center; margin-top: 1rem;" data-he="נחזור אליכם תוך 24 שעות עם הצעת מחיר מותאמת אישית" data-en="We'll get back to you within 24 hours with a personalized quote">נחזור אליכם תוך 24 שעות עם הצעת מחיר מותאמת אישית</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Areas Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title" data-he="אזורי שירות" data-en="Service Areas">אזורי שירות</h2>
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3 data-he="🏢 מרכז" data-en="🏢 Center">🏢 מרכז</h3>
+                        <p data-he="תל אביב, רמת גן, בני ברק, גבעתיים, רמת השרון ופתח תקווה" data-en="Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Ramat Hasharon and Petah Tikva">תל אביב, רמת גן, בני ברק, גבעתיים, רמת השרון ופתח תקווה</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="🏔️ ירושלים והסביבה" data-en="🏔️ Jerusalem Area">🏔️ ירושלים והסביבה</h3>
+                        <p data-he="ירושלים, בית שמש, מודיעין ומעלה אדומים" data-en="Jerusalem, Beit Shemesh, Modi'in and Ma'ale Adumim">ירושלים, בית שמש, מודיעין ומעלה אדומים</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="🌊 חוף" data-en="🌊 Coast">🌊 חוף</h3>
+                        <p data-he="חיפה, נתניה, הרצליה וקריות" data-en="Haifa, Netanya, Herzliya and Krayot">חיפה, נתניה, הרצליה וקריות</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="🌴 דרום" data-en="🌴 South">🌴 דרום</h3>
+                        <p data-he="באר שבע, אשדוד, אשקלון ורחובות" data-en="Be'er Sheva, Ashdod, Ashkelon and Rehovot">באר שבע, אשדוד, אשקלון ורחובות</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="📡 שירות מרחוק" data-en="📡 Remote Service">📡 שירות מרחוק</h3>
+                        <p data-he="תמיכה טכנית מרחוק לכל הארץ ובחו"ל" data-en="Remote technical support throughout Israel and abroad">תמיכה טכנית מרחוק לכל הארץ ובחו"ל</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3 data-he="🚀 מקרי חירום" data-en="🚀 Emergency Cases">🚀 מקרי חירום</h3>
+                        <p data-he="זמינות 24/7 למקרי חירום קריטיים" data-en="24/7 availability for critical emergencies">זמינות 24/7 למקרי חירום קריטיים</p>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--bg-light); border-radius: 15px;">
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem;" data-he="לא רואים את האזור שלכם ברשימה?" data-en="Don't see your area on the list?">לא רואים את האזור שלכם ברשימה?</p>
+                    <p data-he="אנחנו מספקים שירותים בכל הארץ ונשמח לבדוק איך נוכל לעזור לכם" data-en="We provide services throughout Israel and will be happy to check how we can help you">אנחנו מספקים שירותים בכל הארץ ונשמח לבדוק איך נוכל לעזור לכם</p>
+                    <a href="tel:+972-50-XXX-XXXX" class="btn-primary" style="margin-top: 1rem;" data-he="התקשרו עכשיו" data-en="Call Now">התקשרו עכשיו</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="content-section" style="background: var(--bg-light);">
+            <div class="container">
+                <h2 class="section-title" data-he="שאלות נפוצות" data-en="Frequently Asked Questions">שאלות נפוצות</h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="faq-item" style="background: var(--bg-white); padding: 2rem; border-radius: 15px; margin-bottom: 1rem;">
+                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem;" data-he="כמה זמן לוקח לקבל הצעת מחיר?" data-en="How long does it take to get a quote?">כמה זמן לוקח לקבל הצעת מחיר?</h3>
+                        <p data-he="אנחנו חוזרים עם הצעת מחיר ראשונית תוך 24 שעות. להצעת מחיר מפורטת לאחר סקר צרכים - 2-3 ימי עסקים." data-en="We respond with an initial quote within 24 hours. For a detailed quote after needs assessment - 2-3 business days.">אנחנו חוזרים עם הצעת מחיר ראשונית תוך 24 שעות. להצעת מחיר מפורטת לאחר סקר צרכים - 2-3 ימי עסקים.</p>
+                    </div>
+                    
+                    <div class="faq-item" style="background: var(--bg-white); padding: 2rem; border-radius: 15px; margin-bottom: 1rem;">
+                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem;" data-he="האם יש עלות לפגישת הייעוץ הראשונית?" data-en="Is there a cost for the initial consultation?">האם יש עלות לפגישת הייעוץ הראשונית?</h3>
+                        <p data-he="לא! פגישת הייעוץ הראשונית והערכת הצרכים הן חינם וללא התחייבות." data-en="No! The initial consultation and needs assessment are free and without obligation.">לא! פגישת הייעוץ הראשונית והערכת הצרכים הן חינם וללא התחייבות.</p>
+                    </div>
+                    
+                    <div class="faq-item" style="background: var(--bg-white); padding: 2rem; border-radius: 15px; margin-bottom: 1rem;">
+                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem;" data-he="איך עובד המעבר ממודל 'קריאות' למעטפת שירות?" data-en="How does the transition from 'call-based' to service package work?">איך עובד המעבר ממודל "קריאות" למעטפת שירות?</h3>
+                        <p data-he="נבצע ניתוח של העלויות הנוכחיות שלכם ונציע מעטפת שירות שתחסוך לכם 20-30% עם שירות טוב יותר." data-en="We will analyze your current costs and offer a service package that will save you 20-30% with better service.">נבצע ניתוח של העלויות הנוכחיות שלכם ונציע מעטפת שירות שתחסוך לכם 20-30% עם שירות טוב יותר.</p>
+                    </div>
+                    
+                    <div class="faq-item" style="background: var(--bg-white); padding: 2rem; border-radius: 15px; margin-bottom: 1rem;">
+                        <h3 style="color: var(--primary-blue); margin-bottom: 1rem;" data-he="מה כלול במעטפת השירות החודשית?" data-en="What's included in the monthly service package?">מה כלול במעטפת השירות החודשית?</h3>
+                        <p data-he="ניטור 24/7, תמיכה טכנית ללא הגבלה, תחזוקה מונעת, עדכוני אבטחה, גיבויים וייעוץ שוטף." data-en="24/7 monitoring, unlimited technical support, preventive maintenance, security updates, backups and ongoing consulting.">ניטור 24/7, תמיכה טכנית ללא הגבלה, תחזוקה מונעת, עדכוני אבטחה, גיבויים וייעוץ שוטף.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-he="שירותים" data-en="Services">שירותים</h3>
+                    <a href="security.html" data-he="אבטחת מידע" data-en="Information Security">אבטחת מידע</a>
+                    <a href="cloud.html" data-he="שירותי ענן" data-en="Cloud Services">שירותי ענן</a>
+                    <a href="hardware.html" data-he="מכירת חומרה" data-en="Hardware Sales">מכירת חומרה</a>
+                    <a href="support.html" data-he="תמיכה טכנית" data-en="Technical Support">תמיכה טכנית</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-he="חברה" data-en="Company">חברה</h3>
+                    <a href="about.html" data-he="אודות SecGate" data-en="About SecGate">אודות SecGate</a>
+                    <a href="index.html#case-studies" data-he="מקרי בוחן" data-en="Case Studies">מקרי בוחן</a>
+                    <a href="index.html#testimonials" data-he="המלצות לקוחות" data-en="Client Testimonials">המלצות לקוחות</a>
+                    <a href="index.html#process" data-he="תהליך העבודה" data-en="Our Process">תהליך העבודה</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-he="צור קשר" data-en="Contact">צור קשר</h3>
+                    <a href="tel:+972-50-XXX-XXXX">📞 050-XXX-XXXX</a>
+                    <a href="mailto:info@secgate.co.il">✉️ info@secgate.co.il</a>
+                    <a href="contact.html" data-he="🏢 טופס יצירת קשר" data-en="🏢 Contact Form">🏢 טופס יצירת קשר</a>
+                    <a href="#" data-he="📍 ישראל - שירות ארצי" data-en="📍 Israel - Nationwide Service">📍 ישראל - שירות ארצי</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-he="שותפים עסקיים" data-en="Business Partners">שותפים עסקיים</h3>
+                    <a href="business-partners.html" data-he="חברות IT" data-en="IT Companies">חברות IT</a>
+                    <a href="business-partners.html" data-he="ספקי ציוד" data-en="Equipment Suppliers">ספקי ציוד</a>
+                    <a href="business-partners.html" data-he="מיקור חוץ" data-en="Outsourcing">מיקור חוץ</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-he="© 2025 SecGate. כל הזכויות שמורות. | מעטפת טכנולוגית חזקה לעסק שלך" data-en="© 2025 SecGate. All rights reserved. | Strong Technology Envelope for Your Business">&copy; 2025 SecGate. כל הזכויות שמורות. | מעטפת טכנולוגית חזקה לעסק שלך</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+    
+    <!-- EmailJS Integration (Replace with your IDs) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your public key
+        })();
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <style>
+        @media (max-width: 768px) {
+            .contact-form > div[style*="grid-template-columns"] {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</body>
+</html>
